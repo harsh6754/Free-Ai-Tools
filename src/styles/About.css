@@ -1,0 +1,110 @@
+:root {
+  --primary-white: #f1f1ef;
+  --primary-black: #373530;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: var(--primary-white);
+}
+
+/* ======================about start */
+.about_container {
+  background-color: var(--primary-white);
+}
+
+
+.about {
+  display: grid;
+  justify-content: center;
+  margin: 100px 100px;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.about.dark-mode{
+  background-color:#373530;
+}
+
+.about .ab1 .text.dark-mode{
+  color:white;
+}
+
+.about .ab2 .text.dark-mode{
+  color:white;
+}
+
+.about .ab1 {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.about .ab1 p {
+  margin-right: 100px;
+  font-size: 32px;
+  font-weight: 550;
+  position: relative;
+  line-height: 33px;
+  top: 30%;
+  font-family: 'Josefin Slab', serif;
+}
+
+.about .ab2 {
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.about .ab2 p {
+  margin-left: 100px;
+  font-size: 32px;
+  font-weight: 550;
+  position: relative;
+  top: 10%;
+  line-height: 33px;
+  font-family: 'Josefin Slab', serif;
+}
+
+.about p button {
+  background-color: var(--primary-black);
+  padding: 6px 25px;
+  border: 2px solid var(--primary-black);
+}
+
+.about p button a {
+  text-decoration: none;
+  color: var(--primary-white);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Josefin Slab', serif;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about p button:hover {
+  /* background-color: var(--primary-white); */
+  transform:scale(1.05);
+  transition: all 0.3s ease-in-out;
+}
+
+
+
+.about img {
+  width: 400px;
+  height: 400px;
+}
+
+.about img.dark-mode{
+  background-color:white;
+}
+
+.bold {
+  font-size: 40px;
+  font-weight: bolder;
+}
+
+/* about end */
